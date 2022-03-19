@@ -118,6 +118,7 @@
             this.btnXMLRead.TabIndex = 19;
             this.btnXMLRead.Text = "XML Read";
             this.btnXMLRead.UseVisualStyleBackColor = true;
+            this.btnXMLRead.Click += new System.EventHandler(this.btnXMLRead_Click);
             // 
             // btnXMLWrite
             // 
@@ -127,6 +128,7 @@
             this.btnXMLWrite.TabIndex = 18;
             this.btnXMLWrite.Text = "XML Write";
             this.btnXMLWrite.UseVisualStyleBackColor = true;
+            this.btnXMLWrite.Click += new System.EventHandler(this.btnXMLWrite_Click);
             // 
             // btnJSONRead
             // 
