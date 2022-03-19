@@ -136,6 +136,7 @@
             this.btnJSONRead.TabIndex = 23;
             this.btnJSONRead.Text = "JSON Read";
             this.btnJSONRead.UseVisualStyleBackColor = true;
+            this.btnJSONRead.Click += new System.EventHandler(this.btnJSONRead_Click);
             // 
             // btnJSONWrite
             // 
